@@ -1,0 +1,9 @@
+{
+  "_comment": "复制成 tiers.json 后填。tier 只能是 daily-driver / active-project / portfolio / archived 之一，且每个仓库恰好一个层级 topic。",
+  "repos": {
+    "my-daily-tool": { "tier": "daily-driver", "freq": "每天", "topics": ["dsh-plugin", "javascript"] },
+    "my-main-product-backend": { "tier": "active-project", "freq": "阶段", "topics": ["java", "spring-boot"] },
+    "css-animation-demos": { "tier": "portfolio", "freq": "极低", "topics": ["frontend", "css"] },
+    "incident-report-2026-01-02": { "tier": "archived", "freq": "只读", "topics": ["docs"] }
+  }
+}
